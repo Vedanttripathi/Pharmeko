@@ -1,0 +1,9 @@
+.drawer {
+  width: 250px;
+  background: rgb(245, 245, 245);
+}
+
+.dashboard {
+  display: flex;
+  height: 100%;
+}

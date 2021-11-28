@@ -1,0 +1,30 @@
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
+
+.login-page-main {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas: "inner-left inner-right";
+  height: calc(100vh - 100px);
+}
+
+.login-page-inner-left {
+  grid-area: inner-left;
+  display: grid;
+  place-content: center;
+  color: rgb(30, 184, 132);
+  font-family: "Pacifico";
+  font-size: 2rem;
+}
+
+.login-page-inner-right {
+  grid-area: inner-right;
+  display: grid;
+  place-content: center;
+  padding: 0rem 3rem;
+}
+
+.red {
+  color: red;
+  margin: auto;
+  text-align: center;
+}
